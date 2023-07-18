@@ -11,4 +11,6 @@ RUN npm install -g sass && \
 
 EXPOSE 3000
 
+ENTRYPOINT [ "npm", "start" ]
+
 COPY . .
